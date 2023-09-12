@@ -1,0 +1,17 @@
+body{
+    background-image: url(Imagenes/alvan-nee-ZCHj_2lJP00-unsplash.jpg);
+    background-size: cover;
+    background-position: center cente;
+    background-repeat: no-repeat;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(15, 1, 27);
+}
+
+.encabezado{
+    background-color: rgba(245, 245, 245, 0.726);
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(Imagenes/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div{
+    text-align: center;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    font-size:larger;
+   
+}
+
+.logo img{
+    height: 200px;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+   
+}
+
+.slogan{
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.botones a:hover{
+    padding-bottom: 30px;
+    color: rgb(209, 16, 203);
+
+}
+
+.envios{
+    padding-top: 90px;
+    width: 100%;
+
+}
+
+#banner{
+    width: 100%;
+}
+
+.contenedor1{
+    justify-content: center;
+    display: flex;
+}
+
+.imagen1{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.imagen2{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.imagen3{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.contenedor2{
+    justify-content: center;
+    display: flex;
+}
+
+.imagen4{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.imagen5{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    position: absolute;
+}
+
+
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: rgb(88, 6, 40);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .izquierda{
+    float: left;
+    position: absolute;
+  }
+  h1{
+    font-size: 15px;
+  }
+  h2{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .derecha{
+    float:right;
+  }
+
+  .formato{
+    height: 100px;
+  }
+
+  .horarios p{
+    text-align: center;
+    }
+
+   .redes{
+    font-size: 50px;
+   } 
+   .redes i{
+    letter-spacing: 15px;
+   }
+
+  

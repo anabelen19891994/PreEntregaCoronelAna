@@ -1,0 +1,50 @@
+header{
+    align-items: center;
+}
+body{
+    background-image: url(Imagenes/paper-1074131_1920.jpg);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.form__input{
+    font-family: sans-serif;
+}
+
+.form__cta{
+    font-family: sans-serif;
+}
+
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+}
+
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
