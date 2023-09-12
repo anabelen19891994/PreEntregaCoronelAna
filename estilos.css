@@ -55,7 +55,11 @@ nav a{
 .botones a:hover{
     padding-bottom: 30px;
     color: rgb(209, 16, 203);
+}
 
+/* sobreescribiendo estilo de bootstrap para botones de nav */
+.nav-link{
+    color: black !important;
 }
 
 .envios{
