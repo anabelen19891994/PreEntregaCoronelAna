@@ -60,16 +60,19 @@ nav a{
 /* sobreescribiendo estilo de bootstrap para botones de nav */
 .nav-link{
     color: black !important;
+    display: contents !important;
 }
 
 .envios{
     padding-top: 90px;
     width: 100%;
+    box-sizing: content-box !important;
 
 }
 
 #banner{
     width: 100%;
+    padding-top: 20px   
 }
 
 .contenedor1{
