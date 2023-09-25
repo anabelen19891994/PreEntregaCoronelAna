@@ -16,7 +16,6 @@ body{
 
 .navbar{
     background-color: #333333e1;
-   
 }
 
 .logo{
@@ -69,7 +68,6 @@ body{
     background-size: cover;
     background-position: center;
     border:2px solid #161515af;
-    justify-items: center;
     transition: all 0,8s;
     justify-items: center;
 }
@@ -160,30 +158,12 @@ body{
     margin-bottom: 40px;
 }
 
-.izquierda{
-    float: left;
-    position: absolute;
-}
-
-h1{
-    font-size: 15px;
-}
-  
-h2{
-    font-size: 15px;
-    text-align: center;
-}
-  
 .derecha{
     float:right;
 }
 
 .formato{
     height: 100px;
-}
-
-.horarios p{
-    text-align: center;
 }
 
 .redes{
@@ -206,6 +186,10 @@ h2{
     background-repeat: no-repeat;
 }
 
+.header_nosotros{
+    
+}
+
 .h1nosotros{
     font-size: 30px;
 }
@@ -214,8 +198,8 @@ h2{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: rgb(15, 1, 27);
-    background-color: rgb(245 245 245 / 85%);;
+    color: rgb(15, 1, 27t);
+    background-color: rgb(245 245 245 / 85%);
 }
 
 .multimedia{
@@ -422,4 +406,24 @@ header{
 /* fin estilos de pagina contacto */
 
 
-  
+/* inicio estilos de pagina ubicacion */
+
+.horarios{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(15, 1, 27t);
+    background-color: rgb(245 245 245 / 85%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.direccion{
+    padding-top: 10px;
+}
+
+.mapa{
+    display: grid;
+    background-position: center;
+}
+/* fin estilos de pagina ubicacion */
