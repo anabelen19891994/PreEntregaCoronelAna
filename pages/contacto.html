@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,62 @@
 </head>
 
 <body class="body_contacto">
+    <header>
+        <!-- navbar inicia -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img class="logo" src="../Imagenes/logo nuevo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/envios.html">Envíos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar fin -->
+    </header>
     <div class="container">
         <div class="info-form">
             <h2 class="h2contacto">COMUNICATE CON NOSOTROS</h2>
             <div class="info-contacto">
-            <p>- TELÉFONO: 1153263161 -</p>
-            <p>- EMAIL: www.pelitos.com.ar -</p>
-            <p>¡CONTANOS TU EXPERIENCIA!</p>
+                <p>- TELÉFONO: 1153263161 -</p>
+                <p>- EMAIL: www.pelitos.com.ar -</p>
+                <p>¡CONTANOS TU EXPERIENCIA!</p>
+            </div>
         </div>
     </div>
-</div>
-    
-<form class="form">
-    <div class="form__container">
-        <input type="text" class="form__input" placeholder="Nombre">
-        <input type="text" class="form__input" placeholder="Email">
-        <input type="text" class="form__input" placeholder="Asunto">
-        <textarea class="form__input form__input--message" placeholder="Escribe tu comentario aquí"></textarea>
 
-        <input type="submit" value="Enviar" class="form__cta">
-        
-    </div>
+    <form class="form">
+        <div class="form__container">
+            <input type="text" class="form__input" placeholder="Nombre">
+            <input type="text" class="form__input" placeholder="Email">
+            <input type="text" class="form__input" placeholder="Asunto">
+            <textarea class="form__input form__input--message" placeholder="Escribe tu comentario aquí"></textarea>
 
-</form>
+            <input type="submit" value="Enviar" class="form__cta">
+
+        </div>
+
+    </form>
 </body>
 
 
