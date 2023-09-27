@@ -60,92 +60,6 @@ body{
     width: 100%;
 }
 
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: repeat(6, 200px);
-    background-position: center;
-    padding: 30px;
-    grid-gap: 10px
-}
-
-.imagen{
-    background-size: cover;
-    background-position: center;
-    border:2px solid #161515af;
-    transition: all 0,8s;
-    justify-items: center;
-}
-
-.imagen:hover{
-    filter: grayscale(100%);
-    transform: scale(1.09);
-}
-
-.imagen1{
-    background-image: url(../Imagenes/camas.png);
-}
-.imagen2{
-    background-image: url(../Imagenes/platos.png);
-}
-.imagen3{
-    background-image: url(../Imagenes/tachos.png);
-}
-.imagen4{
-    background-image: url(../Imagenes/placas.png);
-}
-.imagen5{
-    background-image: url(../Imagenes/paseo.png);
-}
-.imagen6{
-    background-image: url(../Imagenes/puff.png);
-}
-
-@media only screen and (min-width:480px){
-    .contenedor{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 200px);
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:1023px){
-    .contenedor{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .imagen1{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .imagen2{
-        grid-column: 2/4;
-        grid-row: 1/2;
-    }
-    .imagen3{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .imagen4{
-        grid-column: 2/4;
-        grid-row: 2/3;
-    }
-
-    .imagen5{
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-    .imagen6{
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-}
-
-@media only screen and (min-width:1024px){
-    .contenedor{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 300px);
-    }
-}
-
 footer{
     position: absolute;
     background-color: #333333e1;
@@ -205,103 +119,7 @@ body{
     padding-bottom: 20px;
 }
 
-.multimedia{
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: repeat(8, 200px);
-    background-position: center;
-    padding: 20px;
-    grid-gap: 10px
-}
 
-.animales{
-    background-size: cover;
-    background-position: center;
-    border:2px solid #161515af;
-    justify-items: center;
-    transition: all 0,8s;
-}
-
-.animales:hover{
-    filter: grayscale(80%);
-    transform: scale(0.9);
-}
-
-.animales1{
-    background-image: url(../Imagenes/pexels-alexandra-bilham-7329892.jpg);
-}
-.animales2{
-    background-image: url(../Imagenes/pexels-alexander-grey-1909802.jpg);
-}
-.animales3{
-    background-image: url(../Imagenes/pexels-chevanon-photography-1108099.jpg);
-}
-.animales4{
-    background-image: url(../Imagenes/pexels-kelvin-valerio-617278.jpg);
-}
-.animales5{
-    background-image: url(../Imagenes/pexels-lumn-406014.jpg);
-}
-.animales6{
-    background-image: url(../Imagenes/animalia-3020024_1280.jpg);
-}
-.animales7{
-    background-image: url(../Imagenes/cute-3273789_1280.jpg);
-}
-.animales8{
-    background-image: url(../Imagenes/dog-3438453_1280.jpg);
-}
-
-@media only screen and (min-width:480px){
-    .multimedia{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:1023px){
-    .multimedia{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .animales1{
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-    .animales2{
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    .animales3{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .animales4{
-        grid-column: 2/4;
-        grid-row: 2/3;
-    }
-    .animales5{
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-    .animales6{
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-    .animales7{
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    .animales8{
-        grid-column: 2/4;
-        grid-row: 4/5;
-    }
-}
-
-@media only screen and (min-width:1024px){
-    .multimedia{
-        grid-template-columns: repeat(4, 1fr)
-    }
-}
 
 /* fin estilos de pagina nosotros */
 
@@ -427,6 +245,9 @@ header{
     background-position: center;
 }
 /* fin estilos de pagina ubicacion */
+
+@import "_contenedor";
+@import "_multimedia";
 
 
 
