@@ -38,6 +38,10 @@ body{
     border-radius: 5px;
 }
 
+.nav-link{
+    font-size: medium !important;
+}
+
 .slide{
     margin-top: 25px;
 }
@@ -182,10 +186,6 @@ body{
     background-repeat: no-repeat;
 }
 
-.header_nosotros{
-    
-}
-
 .h1nosotros{
     font-size: 30px;
 }
@@ -194,8 +194,15 @@ body{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: whitesmoke;
+    color: black;
     background-color: rgb(245 245 245 / 85%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .multimedia{
@@ -409,7 +416,7 @@ header{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: whitesmoke;
+    color: black;
     background-color: rgb(245 245 245 / 85%);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -417,6 +424,7 @@ header{
 
 .direccion{
     padding-top: 10px;
+    font-size: 15px;
 }
 
 .mapa{
