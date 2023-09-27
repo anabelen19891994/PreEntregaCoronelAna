@@ -313,6 +313,10 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.main_envios {
+  background-color: rgba(245, 245, 245, 0.555);
+}
+
 .h1envios {
   text-align: center;
   font-size: 20px;
