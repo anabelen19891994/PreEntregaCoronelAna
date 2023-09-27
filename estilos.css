@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Martian+Mono:wght@300&family=Mooli&family=Roboto+Condensed&display=swap");
 /* inicio estilos de pagina inicio */
 * {
   margin: 0;
@@ -100,6 +101,7 @@ body {
 
 .h1nosotros {
   font-size: 30px;
+  font-family: "Martian Mono", monospace;
 }
 
 .info {
@@ -125,7 +127,7 @@ body {
 }
 
 .main_envios {
-  background-color: rgba(245, 245, 245, 0.555);
+  background-color: rgba(245, 245, 245, 0.85);
 }
 
 .h1envios {
@@ -178,7 +180,7 @@ header {
 }
 
 .info-form {
-  background-color: rgba(240, 248, 255, 0.664);
+  background-color: rgba(245, 245, 245, 0.85);
 }
 
 .form__input {
@@ -190,7 +192,7 @@ header {
 }
 
 .form {
-  background-color: white;
+  background-color: rgba(245, 245, 245, 0.85);
   width: 90%;
   max-width: 400px;
   border-radius: 1em;
