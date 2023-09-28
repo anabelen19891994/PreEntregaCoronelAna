@@ -97,16 +97,12 @@ footer {
   font-family: "Martian Mono", monospace;
 }
 
-.main_envios {
-  margin-top: 20px;
-}
-
 .info {
+  background-color: rgba(245, 245, 245, 0.85);
+  color: black;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: black;
-  background-color: rgba(245, 245, 245, 0.85);
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
@@ -129,7 +125,9 @@ footer {
 
 .main_envios {
   background-color: rgba(245, 245, 245, 0.85);
+  color: black;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .h1envios {
@@ -192,6 +190,7 @@ header {
 
 .info-form {
   background-color: rgba(245, 245, 245, 0.85);
+  color: black;
   width: 80%;
   margin: auto;
   border-radius: 10px;
@@ -210,6 +209,7 @@ header {
 
 .form {
   background-color: rgba(245, 245, 245, 0.85);
+  color: black;
   width: 90%;
   max-width: 400px;
   border-radius: 1em;
@@ -243,11 +243,11 @@ header {
 /* fin estilos de pagina contacto */
 /* inicio estilos de pagina ubicacion */
 .horarios {
+  background-color: rgba(245, 245, 245, 0.85);
+  color: black;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: black;
-  background-color: rgba(245, 245, 245, 0.85);
   padding-top: 10px;
   padding-bottom: 10px;
   margin: auto;

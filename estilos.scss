@@ -5,6 +5,11 @@
 // font-family: 'Mooli', sans-serif;
 // font-family: 'Roboto Condensed', sans-serif;
 
+@mixin colores{
+    background-color:rgb(245 245 245 / 85%);
+    color: black;
+}
+
 //fonts
 $font1: 'Lato',
 sans-serif;
@@ -14,7 +19,6 @@ $font3: 'Mooli',
 sans-serif;
 $font4: 'Roboto Condensed',
 sans-serif;
-$color1: rgb(245 245 245 / 85%);
 $fondo: url(Imagenes/texture-1504364_1280.jpg);
 
 /* inicio estilos de pagina inicio */
@@ -64,8 +68,8 @@ body {
 
 .slide {
     margin-top: 25px;
-    
-    slide img{
+
+    slide img {
         height: 45vh;
     }
 }
@@ -100,7 +104,7 @@ footer {
 .redes {
     font-size: 50px;
 
-    redes i{
+    redes i {
         letter-spacing: 15px;
     }
 }
@@ -122,22 +126,17 @@ footer {
 
 }
 
-.main_envios{
-    margin-top: 20px;
-}
-
 .info {
+    @include colores;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: black;
-    background-color: $color1;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
 }
 
-.info p{
+.info p {
     font-size: small;
 }
 
@@ -155,8 +154,9 @@ footer {
 }
 
 .main_envios {
-    background-color: $color1;
+    @include colores;
     padding: 20px;
+    margin-top: 20px;
 }
 
 
@@ -166,7 +166,7 @@ footer {
     font-family: $font3;
 }
 
-::marker{
+::marker {
     font-size: 20px;
 }
 
@@ -204,7 +204,7 @@ header {
 
 }
 
-.container{
+.container {
     margin-top: 20px;
     padding-bottom: 50px;
 }
@@ -223,7 +223,7 @@ header {
 }
 
 .info-form {
-    background-color: $color1;
+    @include colores;
     width: 80%;
     margin: auto;
     border-radius: 10px;
@@ -241,7 +241,7 @@ header {
 }
 
 .form {
-    background-color: $color1;
+    @include colores;
     width: 90%;
     max-width: 400px;
     border-radius: 1em;
@@ -257,12 +257,12 @@ header {
     height: 200px;
 }
 
-.form__input{
+.form__input {
     height: 30px;
     transition: height 1s;
 }
 
-.form__input:hover{
+.form__input:hover {
     height: 55px;
 }
 
@@ -277,11 +277,10 @@ header {
 /* inicio estilos de pagina ubicacion */
 
 .horarios {
+    @include colores;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: black;
-    background-color: $color1;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: auto;
@@ -290,9 +289,11 @@ header {
     font-size: small;
     border-radius: 10px;
 }
- .horarios ul{
+
+.horarios ul {
     padding-left: 0;
- }
+}
+
 .direccion {
     padding-top: 10px;
     font-size: 15px;
