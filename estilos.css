@@ -23,7 +23,8 @@ body {
 .navbar nav-item {
   padding: 10px;
 }
-.navbar .nav-item:hover {
+
+.nav-item:hover {
   background-color: rgba(240, 248, 255, 0.24);
   border-radius: 5px;
 }
@@ -45,8 +46,7 @@ body {
 .slide {
   margin-top: 25px;
 }
-
-.slide img {
+.slide slide img {
   height: 45vh;
 }
 
@@ -79,8 +79,7 @@ footer {
 .redes {
   font-size: 50px;
 }
-
-.redes i {
+.redes redes i {
   letter-spacing: 15px;
 }
 
@@ -98,6 +97,10 @@ footer {
   font-family: "Martian Mono", monospace;
 }
 
+.main_envios {
+  margin-top: 20px;
+}
+
 .info {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -110,7 +113,7 @@ footer {
 }
 
 .info p {
-  font-size: medium;
+  font-size: small;
 }
 
 .info-form {
@@ -170,6 +173,11 @@ header {
   text-align: center;
 }
 
+.container {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
 .h2contacto {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
@@ -179,12 +187,14 @@ header {
 .info-contacto {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
 }
 
 .info-form {
   background-color: rgba(245, 245, 245, 0.85);
-  width: 30%;
+  width: 80%;
   margin: auto;
+  border-radius: 10px;
 }
 
 .form__input {
@@ -230,10 +240,6 @@ header {
   margin-bottom: 0.4em;
 }
 
-.container {
-  padding-bottom: 50px;
-}
-
 /* fin estilos de pagina contacto */
 /* inicio estilos de pagina ubicacion */
 .horarios {
@@ -246,6 +252,9 @@ header {
   padding-bottom: 10px;
   margin: auto;
   width: 70%;
+  margin-top: 20px;
+  font-size: small;
+  border-radius: 10px;
 }
 
 .horarios ul {
