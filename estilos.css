@@ -243,6 +243,10 @@ header {
 
 /* fin estilos de pagina contacto */
 /* inicio estilos de pagina ubicacion */
+.navbar {
+  min-width: 250px;
+}
+
 .horarios {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;

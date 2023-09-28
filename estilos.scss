@@ -277,6 +277,12 @@ header {
 
 /* inicio estilos de pagina ubicacion */
 
+.navbar {
+    min-width: 250px
+}
+
+
+
 .horarios {
     @include colores;
     text-align: center;
