@@ -15,6 +15,7 @@ sans-serif;
 $font4: 'Roboto Condensed',
 sans-serif;
 $color1: rgb(245 245 245 / 85%);
+$fondo: url(Imagenes/texture-1504364_1280.jpg);
 
 /* inicio estilos de pagina inicio */
 * {
@@ -25,7 +26,7 @@ $color1: rgb(245 245 245 / 85%);
 
 body {
     font-family: sans-serif;
-    background-image: url(Imagenes/texture-1504364_1280.jpg);
+    background-image: $fondo;
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);
@@ -108,7 +109,7 @@ footer {
 /* inicio estilos de pagina nosotros */
 
 .body_nosotros {
-    background-image: url(Imagenes/texture-1504364_1280.jpg);
+    background-image: $fondo;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,6 +129,11 @@ footer {
     background-color: $color1;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info p{
+    font-size: medium;
 }
 
 .info-form {
@@ -139,7 +145,7 @@ footer {
 /* inicio estilos de pagina envios */
 
 .body_envios {
-    background-image: url(Imagenes/texture-1504364_1280.jpg);
+    background-image: $fondo;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -152,6 +158,10 @@ footer {
     text-align: center;
     font-size: 20px;
     font-family: $font3;
+}
+
+::marker{
+    font-size: 20px;
 }
 
 .mensajeria {
@@ -181,7 +191,7 @@ header {
 }
 
 .body_contacto {
-    background-image: url(Imagenes/texture-1504364_1280.jpg);
+    background-image: $fondo;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -267,7 +277,9 @@ header {
     margin: auto;
     width: 70%;
 }
-
+ .horarios ul{
+    padding-left: 0;
+ }
 .direccion {
     padding-top: 10px;
     font-size: 15px;
