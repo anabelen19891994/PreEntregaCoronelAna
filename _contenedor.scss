@@ -4,14 +4,14 @@
     grid-template-rows: repeat(6, 200px);
     background-position: center;
     padding: 30px;
-    grid-gap: 10px
+    grid-gap: 10px;
 }
 
 .imagen {
     background-size: cover;
     background-position: center;
     border: 2px solid #161515af;
-    transition: all 1.3s;
+    transition: all 0.8s;
     justify-items: center;
 }
 
@@ -21,27 +21,27 @@
 }
 
 .imagen1 {
-    background-image: url(../Imagenes/camas.png);
+    background-image: url(./Imagenes/camas.png);
 }
 
 .imagen2 {
-    background-image: url(../Imagenes/platos.png);
+    background-image: url(./Imagenes/platos.png);
 }
 
 .imagen3 {
-    background-image: url(../Imagenes/tachos.png);
+    background-image: url(./Imagenes/tachos.png);
 }
 
 .imagen4 {
-    background-image: url(../Imagenes/placas.png);
+    background-image: url(./Imagenes/placas.png);
 }
 
 .imagen5 {
-    background-image: url(../Imagenes/paseo.png);
+    background-image: url(./Imagenes/paseo.png);
 }
 
 .imagen6 {
-    background-image: url(../Imagenes/puff.png);
+    background-image: url(./Imagenes/puff.png);
 }
 
 @media only screen and (min-width:480px) {

@@ -36,7 +36,11 @@ body {
     height: calc(100vh - 80px);
     width: 100%;
     font-size: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.main_inicio{
+    margin-bottom: 70px;
 }
 
 .navbar {
@@ -118,6 +122,10 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.main_nosotros{
+    padding-bottom: 80px;
 }
 
 .h1nosotros {
