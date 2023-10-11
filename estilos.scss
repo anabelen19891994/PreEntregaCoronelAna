@@ -72,10 +72,10 @@ body {
 
 .slide {
     margin-top: 25px;
-}
 
-.slide img{
-    height: 45vh;
+    img{
+        height: 45vh;
+}
 }
 
 .envios {
@@ -107,7 +107,7 @@ footer {
 .redes {
     font-size: 50px;
 
-    redes i {
+    i {
         letter-spacing: 15px;
     }
 }
@@ -142,10 +142,10 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
-}
 
-.info p {
-    font-size: small;
+    p{
+        font-size: small;
+    }
 }
 
 .info-form {
@@ -284,6 +284,10 @@ header {
 
 /* inicio estilos de pagina ubicacion */
 
+.main_ubicacion{
+    padding-bottom: 120px;
+}
+
 .navbar {
     min-width: 250px
 }
@@ -302,10 +306,10 @@ header {
     margin-top: 20px;
     font-size: small;
     border-radius: 10px;
-}
 
-.horarios ul {
-    padding-left: 0;
+    ul{
+        padding-left: 0;
+    }
 }
 
 .direccion {
@@ -314,10 +318,9 @@ header {
 }
 
 .mapa {
-    margin: auto;
-    display: grid;
     background-position: center;
-    padding-top: 20px
+    padding-top: 20px;
+    width: 100%
 }
 
 /* fin estilos de pagina ubicacion */

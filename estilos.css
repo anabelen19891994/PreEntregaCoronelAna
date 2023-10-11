@@ -50,7 +50,6 @@ body {
 .slide {
   margin-top: 25px;
 }
-
 .slide img {
   height: 45vh;
 }
@@ -84,7 +83,7 @@ footer {
 .redes {
   font-size: 50px;
 }
-.redes redes i {
+.redes i {
   letter-spacing: 15px;
 }
 
@@ -117,7 +116,6 @@ footer {
   padding-bottom: 20px;
   margin-top: 20px;
 }
-
 .info p {
   font-size: small;
 }
@@ -252,6 +250,10 @@ header {
 
 /* fin estilos de pagina contacto */
 /* inicio estilos de pagina ubicacion */
+.main_ubicacion {
+  padding-bottom: 120px;
+}
+
 .navbar {
   min-width: 250px;
 }
@@ -270,7 +272,6 @@ header {
   font-size: small;
   border-radius: 10px;
 }
-
 .horarios ul {
   padding-left: 0;
 }
@@ -281,10 +282,9 @@ header {
 }
 
 .mapa {
-  margin: auto;
-  display: grid;
   background-position: center;
   padding-top: 20px;
+  width: 100%;
 }
 
 /* fin estilos de pagina ubicacion */
