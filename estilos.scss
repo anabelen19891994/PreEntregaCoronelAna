@@ -6,9 +6,9 @@
 // font-family: 'Roboto Condensed', sans-serif;
 
 @mixin colores {
-    background-color: rgb(245 245 245 / 85%);
+    background-color: rgba(245, 245, 245, 0.418);
     color: black;
-    border: 2px solid #0e0d0de0;
+    border: 1px solid #0e0d0de0;
     border-radius: 10px;
 }
 
@@ -91,15 +91,15 @@ body {
 }
 
 footer {
-    position: absolute;
     background-color: #333333e1;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;
     color: white;
     font-family: sans-serif;
     font-size: 15px;
+    
 }
 
 .derecha {
@@ -108,16 +108,24 @@ footer {
 
 .redes {
     font-size: 50px;
+    
+    
 
     i {
         letter-spacing: 15px;
+        transition: all ease 500ms;
     }
+}
+
+i:hover{
+    color: #5c0346;
+    transform: scale(1.2);
 }
 
 .whatsapp{
     height: 40px;
     width: 40px;
-    position: fixed;
+    position: fixed !important;
     right: 40px;
     bottom: 40px;
     text-align: center;
@@ -127,8 +135,11 @@ footer {
 
     a{
         color: #5c0346;
+        
     }
 }
+
+
 
 
 /* fin estilos de pagina inicio */

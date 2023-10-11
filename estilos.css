@@ -65,9 +65,8 @@ body {
 }
 
 footer {
-  position: absolute;
   background-color: rgba(51, 51, 51, 0.8823529412);
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 100px;
@@ -85,12 +84,18 @@ footer {
 }
 .redes i {
   letter-spacing: 15px;
+  transition: all ease 500ms;
+}
+
+i:hover {
+  color: #5c0346;
+  transform: scale(1.2);
 }
 
 .whatsapp {
   height: 40px;
   width: 40px;
-  position: fixed;
+  position: fixed !important;
   right: 40px;
   bottom: 40px;
   text-align: center;
@@ -122,9 +127,9 @@ footer {
 }
 
 .info {
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.418);
   color: black;
-  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border: 1px solid rgba(14, 13, 13, 0.8784313725);
   border-radius: 10px;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -149,9 +154,9 @@ footer {
 }
 
 .main_envios {
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.418);
   color: black;
-  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border: 1px solid rgba(14, 13, 13, 0.8784313725);
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
@@ -216,9 +221,9 @@ header {
 }
 
 .info-form {
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.418);
   color: black;
-  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border: 1px solid rgba(14, 13, 13, 0.8784313725);
   border-radius: 10px;
   width: 80%;
   margin: auto;
@@ -236,9 +241,9 @@ header {
 }
 
 .form {
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.418);
   color: black;
-  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border: 1px solid rgba(14, 13, 13, 0.8784313725);
   border-radius: 10px;
   width: 90%;
   max-width: 400px;
@@ -281,9 +286,9 @@ header {
 }
 
 .horarios {
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.418);
   color: black;
-  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border: 1px solid rgba(14, 13, 13, 0.8784313725);
   border-radius: 10px;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -325,7 +330,7 @@ header {
   background-size: cover;
   background-position: center;
   border: 2px solid rgba(22, 21, 21, 0.6862745098);
-  transition: all 0.8s;
+  transition: all ease 900ms;
   justify-items: center;
 }
 
@@ -413,7 +418,7 @@ header {
   background-position: center;
   border: 2px solid rgba(22, 21, 21, 0.6862745098);
   justify-items: center;
-  transition: all 0, 8s;
+  transition: all ease 900ms;
 }
 
 .animales:hover {
