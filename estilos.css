@@ -87,6 +87,21 @@ footer {
   letter-spacing: 15px;
 }
 
+.whatsapp {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 50px;
+}
+.whatsapp a {
+  color: #5c0346;
+}
+
 /* fin estilos de pagina inicio */
 /* inicio estilos de pagina nosotros */
 .body_nosotros {
@@ -109,6 +124,8 @@ footer {
 .info {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;
+  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border-radius: 10px;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
@@ -134,6 +151,8 @@ footer {
 .main_envios {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;
+  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
 }
@@ -199,9 +218,10 @@ header {
 .info-form {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;
+  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border-radius: 10px;
   width: 80%;
   margin: auto;
-  border-radius: 10px;
 }
 
 .form__input {
@@ -218,6 +238,8 @@ header {
 .form {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;
+  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border-radius: 10px;
   width: 90%;
   max-width: 400px;
   border-radius: 1em;
@@ -261,6 +283,8 @@ header {
 .horarios {
   background-color: rgba(245, 245, 245, 0.85);
   color: black;
+  border: 2px solid rgba(14, 13, 13, 0.8784313725);
+  border-radius: 10px;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
