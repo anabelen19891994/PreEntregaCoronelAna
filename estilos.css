@@ -11,13 +11,12 @@ body {
   background-image: url(Imagenes/texture-1504364_1280.jpg);
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 80px);
+  height: 100px;
   width: 100%;
   font-size: 10px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .main_inicio {
@@ -154,10 +153,7 @@ i:hover {
   background-size: cover;
   background-position: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: calc(100vh - 200px);
   background-attachment: fixed;
 }
 
@@ -200,7 +196,7 @@ i:hover {
 
 /* fin estilos de pagina envios */
 /* inicio estilos de pagina contacto */
-header {
+.header_contacto {
   align-items: center;
 }
 
@@ -211,12 +207,11 @@ header {
   text-align: center;
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 80px);
   width: 100%;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: calc(100vh - 200px);
 }
 
 .container {

@@ -35,14 +35,19 @@ body {
     background-image: $fondo;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 80px);
+    // height: calc(100vh - 80px);
+    height: 100px;
     width: 100%;
     font-size: 10px;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    // min-height: 100vh;
     
+}
+
+header{
+    // height: 100px;
 }
 
 .main_inicio{
@@ -203,13 +208,13 @@ i:hover{
     background-size: cover;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    // height: calc(100vh - 80px);
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    min-height: calc(100vh - (100px + 100px));
     // width: 100%;
     // margin-bottom: 100px;
-    min-height: 100vh;
+    
     background-attachment: fixed
     // position: relative;
     // padding-bottom: 3em;
@@ -219,6 +224,7 @@ i:hover{
     @include colores;
     padding: 20px;
     margin-top: 20px;
+    
     
 }
 
@@ -256,7 +262,7 @@ i:hover{
 
 /* inicio estilos de pagina contacto */
 
-header {
+.header_contacto {
     align-items: center;
 }
 
@@ -267,12 +273,12 @@ header {
     text-align: center;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 80px);
+    // height: calc(100vh - 80px);
     width: 100%;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: calc(100vh - (100px + 100px));
 
 }
 
