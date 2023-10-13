@@ -15,7 +15,6 @@ body {
   width: 100%;
   font-size: 10px;
   margin-bottom: 100px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -346,13 +345,15 @@ i:hover {
   background-size: cover;
   background-position: center;
   border: 2px solid rgba(22, 21, 21, 0.6862745098);
-  transition: all ease 900ms;
+  transition: all ease 1400ms;
+  -o-object-fit: cover;
+     object-fit: cover;
   justify-items: center;
 }
 
 .imagen:hover {
   filter: grayscale(100%);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .imagen1 {

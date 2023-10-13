@@ -11,14 +11,16 @@
     background-size: cover;
     background-position: center;
     border: 2px solid #161515af;
-    transition: all ease 900ms;
+    transition: all ease 1400ms;
+    object-fit: cover;
     justify-items: center;
+
 }
 
 .imagen:hover {
     filter: grayscale(100%);
-    transform: scale(1.2);
-}
+    transform: scale(1.1);
+    }
 
 .imagen1 {
     background-image: url(./Imagenes/camas.png);
