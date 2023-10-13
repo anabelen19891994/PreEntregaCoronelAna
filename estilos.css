@@ -357,11 +357,11 @@ i:hover {
 }
 
 .imagen1 {
-  background-image: url(./Imagenes/camas.png);
+  background-image: url(./Imagenes/camas-8iZnbf1cT-transformed.png);
 }
 
 .imagen2 {
-  background-image: url(./Imagenes/platos.png);
+  background-image: url(./Imagenes/zyro-image.png);
 }
 
 .imagen3 {
@@ -426,7 +426,7 @@ i:hover {
   grid-template-columns: repeat(1, 2fr);
   grid-template-rows: repeat(8, 200px);
   background-position: center;
-  padding: 20px;
+  padding: 30px;
   grid-gap: 10px;
 }
 

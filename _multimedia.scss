@@ -3,7 +3,7 @@
     grid-template-columns: repeat(1, 2fr);
     grid-template-rows: repeat(8, 200px);
     background-position: center;
-    padding: 20px;
+    padding: 30px;
     grid-gap: 10px
 }
 
@@ -107,6 +107,6 @@
 
 @media only screen and (min-width:1024px) {
     .multimedia {
-        grid-template-columns: repeat(4, 1fr)
+        grid-template-columns: repeat(4, 1fr);
     }
 }
