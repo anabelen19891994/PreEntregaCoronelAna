@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Martian+Mono:wght@300&family=Mooli&family=Roboto+Condensed&display=swap');
 
-// font-family: 'Lato', sans-serif;
-// font-family: 'Martian Mono', monospace;
-// font-family: 'Mooli', sans-serif;
-// font-family: 'Roboto Condensed', sans-serif;
 
 @mixin colores {
     background-color: rgba(245, 245, 245, 0.418);
@@ -12,7 +8,6 @@
     border-radius: 10px;
 }
 
-//fonts
 $font1: 'Lato',
 sans-serif;
 $font2: 'Martian Mono',
@@ -35,30 +30,11 @@ body {
     background-image: $fondo;
     background-size: cover;
     background-position: center;
-    // height: calc(100vh - 80px);
     height: 100px;
     width: 100%;
     font-size: 10px;
     margin-bottom: 100px;
-    // display: flex;
     flex-direction: column;
-    // min-height: 100vh;
-}
-
-// background-image: $fondo;
-//     background-size: cover;
-//     background-position: center;
-//     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-//     // display: flex;
-//     // flex-direction: column;
-//     // flex-wrap: wrap;
-//     min-height: calc(100vh - (100px + 100px));
-//     // width: 100%;
-//     // margin-bottom: 100px;
-
-// background-attachment: fixed
-header {
-    // height: 100px;
 }
 
 .main_inicio {
@@ -123,7 +99,6 @@ header {
 
 footer {
     background-color: #333333e1;
-    // position: absolute;
     bottom: 0;
     width: 100%;
     height: 110px;
@@ -227,14 +202,8 @@ i:hover {
     background-size: cover;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    // display: flex;
-    // flex-direction: column;
-    // flex-wrap: wrap;
     min-height: calc(100vh - (100px + 100px));
-    // width: 100%;
-    // margin-bottom: 100px;
-    background-attachment: fixed // position: relative;
-        // padding-bottom: 3em;
+    background-attachment: fixed;
 }
 
 .main_envios {
@@ -290,7 +259,6 @@ i:hover {
     text-align: center;
     background-size: cover;
     background-position: center;
-    // height: calc(100vh - 80px);
     width: 100%;
     margin-bottom: 100px;
     min-height: calc(100vh - (100px + 100px));
