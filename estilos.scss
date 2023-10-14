@@ -44,6 +44,7 @@ body {
     flex-direction: column;
     // min-height: 100vh;
 }
+
 // background-image: $fondo;
 //     background-size: cover;
 //     background-position: center;
@@ -54,20 +55,20 @@ body {
 //     min-height: calc(100vh - (100px + 100px));
 //     // width: 100%;
 //     // margin-bottom: 100px;
-    
-    // background-attachment: fixed
-header{
+
+// background-attachment: fixed
+header {
     // height: 100px;
 }
 
-.main_inicio{
+.main_inicio {
     padding-bottom: 100px;
 }
 
 .navbar {
     background-color: #333333e1;
-    
-    
+
+
 
     nav-item {
         padding: 10px;
@@ -94,19 +95,20 @@ header{
     font-size: medium !important;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     background-color: #333333f1;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-color: #333333f1;
 }
+
 .slide {
     margin-top: 25px;
 
-    img{
+    img {
         height: 45vh;
-}
+    }
 }
 
 .envios {
@@ -131,8 +133,8 @@ footer {
     margin-top: auto;
     position: fixed;
     padding: 1em;
-    
-    
+
+
 }
 
 .derecha {
@@ -141,8 +143,8 @@ footer {
 
 .redes {
     font-size: 50px;
-    
-    
+
+
 
     i {
         letter-spacing: 15px;
@@ -150,12 +152,12 @@ footer {
     }
 }
 
-i:hover{
+i:hover {
     color: #5c0346;
     transform: scale(1.2);
 }
 
-.whatsapp{
+.whatsapp {
     height: 40px;
     width: 40px;
     position: fixed;
@@ -166,9 +168,9 @@ i:hover{
     border-radius: 50%;
     font-size: 50px;
 
-    a{
+    a {
         color: #5c0346;
-        
+
     }
 }
 
@@ -187,7 +189,7 @@ i:hover{
     background-attachment: fixed;
 }
 
-.main_nosotros{
+.main_nosotros {
     padding-bottom: 100px;
 }
 
@@ -205,9 +207,9 @@ i:hover{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
-    
 
-    p{
+
+    p {
         font-size: small;
     }
 }
@@ -231,17 +233,16 @@ i:hover{
     min-height: calc(100vh - (100px + 100px));
     // width: 100%;
     // margin-bottom: 100px;
-    background-attachment: fixed
-    // position: relative;
-    // padding-bottom: 3em;
+    background-attachment: fixed // position: relative;
+        // padding-bottom: 3em;
 }
 
 .main_envios {
     @include colores;
     padding: 20px;
     margin-top: 20px;
-    
-    
+
+
 }
 
 
@@ -318,7 +319,7 @@ i:hover{
     @include colores;
     width: 80%;
     margin: auto;
-    
+
 }
 
 .form__input {
@@ -364,7 +365,7 @@ i:hover{
     margin-bottom: .4em;
 }
 
-.footer_contacto{
+.footer_contacto {
     margin-top: auto;
     width: 100%;
 }
@@ -373,7 +374,7 @@ i:hover{
 
 /* inicio estilos de pagina ubicacion */
 
-.main_ubicacion{
+.main_ubicacion {
     padding-bottom: 120px;
 }
 
@@ -396,7 +397,7 @@ i:hover{
     font-size: small;
     border-radius: 10px;
 
-    ul{
+    ul {
         padding-left: 0;
     }
 }
